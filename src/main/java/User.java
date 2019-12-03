@@ -1,4 +1,6 @@
 class User {
+    static final User SAUL = new User("Saul", "Pico", "SAUL");
+    static final User JESSE = new User("Jesse", "Pico", "JESSE");
     private final String firstname;
     private final String lastname;
     private final String username;
